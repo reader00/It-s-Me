@@ -11,342 +11,472 @@
 -->
 <!DOCTYPE html>
 <html lang="en" class="sr">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="styles.scss" />
-    <script
-      defer
-      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
-    ></script>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="./assets/favicon/favicon.ico" />
+        <link rel="icon" href="./assets/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+        <link rel="icon" href="./assets/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+        <!-- home screen for iphones without the gloss effect -->
+        <link rel="apple-touch-icon-precomposed" href="./assets/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/favicon/apple-touch-icon-114x114.png">
 
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+        <!-- Todo: put here your site title -->
+        <title>Qory Amanah Putra | Simple Human</title>
+        <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+        <meta name="keywords"
+            content="reader00, qory, qoryamanahputra, qory amanah putra, skills, portfolio, about, project, stack, javascript, python, java, php, nodejs, hapijs, bootstrap, jquery, codeigniter, reactjs" />
+        <!-- Todo: improve your SEO by adding a small description of you -->
+        <meta name="description"
+            content="Qory Amanah Putra | Hi, I'm Qory Amanah Putra, muslim, programming enthusiast, chocolate addict 🤤" />
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="styles.scss" />
+        <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
-    <!-- **** Hero Section **** -->
-    <section id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
-          <br />
-          I'm the Unknown Developer.
-        </h1>
-        <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
-          >
-        </p>
-      </div>
-    </section>
-    <!-- /END Hero Section -->
+        <!-- Todo: remove the below script once you finish your portfolio -->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+    </head>
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
-              />
+    <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+
+    <body>
+        <div id="top"></div>
+
+        <!-- **** Hero Section **** -->
+        <section id="hero" class="jumbotron">
+            <div class="container">
+                <h1 class="hero-title load-hidden">
+                    Hi, I'm <span class="text-color-main"><b>Qory</b> Amanah Putra</span>
+                    <br />
+                    Back-End Developer.
+                </h1>
+                <p class="hero-cta load-hidden">
+                    <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+                </p>
             </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
-              </p>
-              <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
-              </p>
-              <span class="d-flex mt-3">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
-                >
-                  View Resume
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
+        </section>
+        <!-- /END Hero Section -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+        <!-- **** About Section **** -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title load-hidden">About me</h2>
+                <div class="row about-wrapper">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__image load-hidden">
+                            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px"
+                                src="./assets/chocolate.jpg" alt="Profile Image" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__info load-hidden">
+                            <p class="about-wrapper__info-text">
+                                I'm a muslim, and a programming enthusiast. Curious to learn many type of technology
+                                that needed problem solving and algorithm using coding.
+                            </p>
+                            <br>
+                            <p class="about-wrapper__info-text">
+                                I am interested in programming, especially web development and software development, and
+                                also in the AR field(I'm SAO fan, U have to watch it🤣).
+                            </p>
+                            <br>
+                            <p class="about-wrapper__info-text">
+                                Fun fact, I'm addicted to chocolate(peanuts will make it even tastier) 🤤.
+                            </p>
+                            <br>
+                            <span class="d-flex mt-3">
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
+                                    href="./assets/resume.pdf">
+                                    View Resume
+                                </a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
+        </section>
+        <!-- /END About Section -->
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+        <!-- **** Projects Section **** -->
+        <section id="projects">
+            <div class="container">
+                <div class="project-wrapper">
+                    <h2 class="section-title dark-blue-text">Projects</h2>
+
+                    <!-- Touch Me -->
+                    <div class="row" id="touch">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">Touch Me</h3>
+                                <div>
+                                    <p class="mb-4">
+                                        Touch the button and Bwahhh....
+                                        <br>
+                                        Just a gaboet thing.
+                                        2020-04-08
+                                    </p>
+                                    <p class="mb-4">
+                                        <span class="badge bg-warning">HTML</span>
+                                        <span class="badge bg-info">CSS</span>
+                                        <span class="badge bg-warning">Vanilla JS</span>
+                                    </p>
+                                </div>
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                                    href="https://learn.qoryap.my.id/touch-me/">
+                                    See Live
+                                </a>
+                                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                                    href="https://github.com/reader00/Touch-Me.git">
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                                        class="thumbnail rounded js-tilt">
+                                        <img alt="Project Image" class="img-fluid" src="./assets/touch_me.png" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+
+                    <!-- Cloudme -->
+                    <div class="row" id="cloud">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">Cloudme</h3>
+                                <div>
+                                    <p class="mb-4">
+                                        A simple website that built using ReactJs to fullfil the Final Project of
+                                        Sanbercode Bootcamp.
+                                    </p>
+                                    <p class="mb-4">
+                                        This website consume game and movie data from RestfulAPI that provided by
+                                        Sanbercode. The basic CURL(Front-End only) is here.
+                                    </p>
+                                    <p class="mb-4">
+                                        <span class="badge bg-success">NodeJS</span>
+                                        <span class="badge bg-info">ReactJS</span>
+                                        <span class="badge bg-info">Ant Design</span>
+                                    </p>
+                                </div>
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                                    href="https://cloudme.netlify.app">
+                                    See Live
+                                </a>
+                                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                                    href="https://github.com/reader00/FP-Sanbercode-Reactjs-0820.git">
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                                        class="thumbnail rounded js-tilt">
+                                        <img alt="Project Image" class="img-fluid" src="assets/cloudme.png" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+
+                    <!-- Ma Notes -->
+                    <div class="row" id="notes">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">Ma Notes</h3>
+                                <div>
+                                    <p class="mb-4">
+                                        Custom Front-End for module Restful API in class "Belajar Membuat Aplikasi
+                                        Back-End untuk Pemula" by Dicoding.
+                                    </p>
+                                    <p>
+                                        A simple CRUD.
+                                    </p>
+                                    <p class="mb-4">
+                                        <span class="badge bg-success">NodeJS</span>
+                                        <span class="badge bg-warning">HapiJS</span>
+                                    </p>
+                                </div>
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                                    href="https://ma-notes.qoryap.my.id">
+                                    See Live
+                                </a>
+                                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                                    href="https://github.com/reader00/Ma-Notes.git">
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                                        class="thumbnail rounded js-tilt">
+                                        <img alt="Project Image" class="img-fluid" src="assets/ma_notes.png" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+
+                    <!-- Book a Bulk of Book -->
+                    <div class="row" id="book">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">Book a Bulk of Book</h3>
+                                <div>
+                                    <p class="mb-4">
+                                        Submission for Belajar Membuat Aplikasi Back-End Pemula @dicoding. This Back-End
+                                        built using <a target="_black" href="https://hapi.dev">HapiJs (The Simple,
+                                            Secure Framework
+                                            Developers Trust)</a>
+                                    </p>
+                                    <p class="mb-4">
+                                        Again, it is a simple CRUD (Back-End only).
+                                    </p>
+                                    <p class="mb-4">
+                                        <span class="badge bg-success">NodeJS</span>
+                                        <span class="badge bg-warning">HapiJS</span>
+                                    </p>
+                                </div>
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                                    href="https://documenter.getpostman.com/view/11165948/UVR4MVGJ">
+                                    Documentation
+                                </a>
+                                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                                    href="https://github.com/reader00/Book-a-bulk-of-book">
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                                        class="thumbnail rounded js-tilt">
+                                        <img alt="Project Image" class="img-fluid" src="assets/no_demo.png" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+
+                    <!-- Sing Songs with Singers -->
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">Sing Songs with Singers</h3>
+                                <div>
+                                    <p class="mb-4">
+                                        Same as <a rel="noreferrer" href="#book">Book a Bulk of Book</a>, this one was
+                                        built using HapiJs. This RestfulAPI intended to for the App to create music
+                                        playlists, users and collaborations.
+                                    </p>
+                                    <p class="mb-4">
+                                        It includes Authentication(JWT), Authorization for Collaboration, Upload Image,
+                                        Caching using Redis, Message Broker using MQTT protocol with RabbitMQ, and send
+                                        email using node-mailer.
+                                    </p>
+                                    <p class="mb-4">
+                                        <span class="badge bg-success">NodeJS</span>
+                                        <span class="badge bg-warning">HapiJS</span>
+                                        <span class="badge bg-primary">node-mailer</span>
+                                        <span class="badge bg-warning">MQTT</span>
+                                        <span class="badge bg-danger">Redis</span>
+                                    </p>
+                                </div>
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                                    href="https://documenter.getpostman.com/view/11165948/UVR4MpDD">
+                                    Documentation
+                                </a>
+                                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                                    href="https://github.com/reader00/Sing-songs-with-singers.git">
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                                        class="thumbnail rounded js-tilt">
+                                        <img alt="Project Image" class="img-fluid" src="assets/no_demo.png" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+
+                    <!-- Secret Place Landing Page -->
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">Secret Place - Landing Page</h3>
+                                <div>
+                                    <p class="mb-4">
+                                        This one is a Landing Page for a startup I built with my friends.
+                                    </p>
+                                    <p class="mb-4">
+                                        Check it outtt.
+                                    </p>
+                                    <p class="mb-4">
+                                        <span class="badge bg-warning">HTML</span>
+                                        <span class="badge bg-info">CSS</span>
+                                        <span class="badge bg-warning">Javascript</span>
+                                    </p>
+                                </div>
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                                    href="https://secretplace.id">
+                                    See Live
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                                        class="thumbnail rounded js-tilt">
+                                        <img alt="Project Image" class="img-fluid" src="assets/secret_place.png" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+
+                    <!-- SISTEM PENDAMPINGAN PENULISAN PUBLIKASI ILMIAH INDONESIA 2021 -->
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">Sistem Pendampingan Penulisan Publikasi Ilmiah
+                                    Indonesia 2021</h3>
+                                <div>
+                                    <p class="mb-4">
+                                        This is a system intended for writers, in this case
+                                        lecturers/researchers/engineers/students of Indonesia to get a mentor during the
+                                        process of writing scientific articles for international conferences or
+                                        journals.
+                                    </p>
+                                    <p class="mb-4">
+                                        <span class="badge bg-primary">PHP</span>
+                                        <span class="badge bg-danger">Codeigniter 3</span>
+                                        <span class="badge bg-warning">jQuery</span>
+                                        <span class="badge bg-primary">PHP Mailer</span>
+                                        <span class="badge bg-info">Bootstrap</span>
+                                    </p>
+                                </div>
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                                    href="https://publikasi.ristekbrin.go.id/penulisan/">
+                                    See Live
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                                        class="thumbnail rounded js-tilt">
+                                        <img alt="Project Image" class="img-fluid" src="assets/spp.png" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
+        </section>
+        <!-- /END Projects Section -->
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+        <!-- **** About Section **** -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title load-hidden">Others</h2>
+                <div class="row about-wrapper">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__image load-hidden">
+                            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px"
+                                src="./assets/HackerRank.png" alt="Profile Image" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__info load-hidden">
+                            <p class="about-wrapper__info-text">
+                                I don't know if this is useful or not but you can check out my HackerRank Solution.
+                                Please read readme.md.
+                            </p>
+                            <br>
+                            <span class="d-flex mt-3">
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
+                                    href="https://github.com/reader00/HackerRank-Solutions.git">
+                                    Check it out
+                                </a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
+        </section>
+        <!-- /END About Section -->
+
+        <!-- **** Contact Section **** -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-wrapper load-hidden">
+                    <p class="contact-wrapper__text">Ask me everything</p>
+                    <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
+                        href="mailto:qoryamanahputra0708@gmail.com">qoryamanahputra0708@gmail.com</a>
+                </div>
             </div>
-          </div>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
+        </section>
+        <!-- /END Contact Section -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
+        <!-- **** Footer Section **** -->
+        <footer class="footer navbar-static-bottom">
+            <div class="container">
+                <a rel="noreferrer" href="#top" class="back-to-top">
+                    <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+                </a>
+                <div class="social-links">
+                    <a rel="noreferrer" href="https://www.linkedin.com/in/qoryamanahputra/" target="_blank">
+                        <i class="fa fa-linkedin fa-inverse"></i>
+                    </a>
+                    <a rel="noreferrer" href="https://github.com/reader00" target="_blank">
+                        <i class="fa fa-github fa-inverse"></i>
+                    </a>
+                </div>
 
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
+                <hr />
 
-        <hr />
+                <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+                <p class="footer__text">
+                    © 2021 - Template developed by
+                    <a rel="noreferrer" href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
+                </p>
+            </div>
+        </footer>
+        <!-- /END Footer Section -->
 
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
+        <script defer type="module" src="index.js"></script>
+    </body>
 
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
-
-    <script defer type="module" src="index.js"></script>
-  </body>
 </html>
